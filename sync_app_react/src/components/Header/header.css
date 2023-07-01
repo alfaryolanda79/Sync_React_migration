@@ -1,0 +1,39 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --fondo: #F6F9FD;
+    --primario: #FF4B63;
+    --gris: #757575;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5px auto;
+}
+
+.logo_navbar{
+        width: 10%;
+         
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.nav_list{
+    font-size: 1rem;
+    padding: 1rem;
+    color: #212121;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+.nav_dropdown{
+    padding: 1rem;
+}
